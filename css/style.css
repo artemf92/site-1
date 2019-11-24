@@ -1,0 +1,711 @@
+body {
+  min-width: 1040px;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+@font-face {
+  font-family: "Parangon530C";
+  src:
+    local("Parangon530C"),
+    url("Parangon530C.eot") format("embedded-opentype"),
+    url("../fonts/Parangon530C.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaLightC";
+  src:
+    local("FuturaLightC"),
+    url("../fonts/FuturaLightC.eot") format("embedded-opentype"),
+    url("../fonts/FuturaLightC.woff") format("woff");
+}
+
+@font-face {
+			font-family: "Exo2Bold";
+			src: url("../fonts/Exo2Bold/Exo2Bold.eot");
+			src: url("../fonts/Exo2Bold/Exo2Bold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/Exo2Bold/Exo2Bold.woff") format("woff"),
+			url("../fonts/Exo2Bold/Exo2Bold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "Exo2Light";
+			src: url("../fonts/Exo2Light/Exo2Light.eot");
+			src: url("../fonts/Exo2Light/Exo2Light.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/Exo2Light/Exo2Light.woff") format("woff"),
+			url("../fonts/Exo2Light/Exo2Light.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Parangon530C";
+  font-size: 36px;
+}
+
+span.back {
+  position: absolute;
+  padding: 0;
+  opacity: 0.08;
+  text-transform: uppercase;
+  font-family: "Tahoma", serif;
+  font-size: 78px;
+  font-weight: bold;
+  line-height: 30px;
+
+}
+
+.page-header {
+  background: url("../img/IMG_3644.png") no-repeat 50%;
+  box-shadow: inset 0 0 1000px rgba(48, 50, 99, 0.9);
+  min-height: 810px;
+  color: white;
+  text-align: center;
+}
+
+.page-header h1 {
+  margin: auto;
+  font-family: "Parangon530C", sans-serif;
+  padding-top: 200px;
+  max-width: 1025px;
+  text-transform: uppercase;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.page-header p {
+  font-family: "PT Sans Caption", serif;
+  font-size: 24px;
+  line-height: 36px;
+  display: block;
+  width: 880px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header li {
+  display: inline-block;
+  width: 252px;
+  background: url("../img/border.svg") no-repeat 0px 22px;
+  height: 185px;
+  margin-right: 60px;
+  font-family: "PT Sans Caption", serif;
+}
+
+.page-header li h2 {
+  font-family: "Parangon530C", serif;
+  font-size: 48px;
+  margin: 0;
+  margin-top: 45px;
+  line-height: 30px;
+}
+
+nav {
+  height: 90px;
+}
+
+nav li {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+}
+
+nav li a {
+  color: black;
+  font-family: "FuturaLightC", sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav li a:hover {
+
+}
+
+nav li:last-child  a {
+  color: #f6ae48;
+}
+
+nav::after,
+article::after,
+.be-careful::after,
+.mail-form::after,
+.clearfix::after,
+.adaptation::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-hr {
+  margin-top: -30px;
+}
+
+section.studio {
+  margin-bottom: 250px;
+}
+
+.studio-description {
+  height: 400px;
+  position: relative;
+}
+
+
+.studio-description span {
+  top: 50%;
+  left: 360px;
+  z-index: 10;
+  font-size: 340px;
+
+}
+
+.studio-description h2 {
+  display: inline-block;
+  position: absolute;
+  z-index: 100;
+  top: 176px;
+  left: 0;
+  line-height: 0;
+  margin-left: 80px;
+  margin-right: 195px;
+  font-size: 48px;
+  /*float: left;*/
+}
+
+.studio-description p {
+  display: inline block;
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  left: 450px;
+  opacity: 0.8;
+  /*float: right;*/
+  margin-right: 80px;
+  color: black;
+  font-weight: 100;
+  padding-top: 45px;
+  white-space: pre-wrap;
+}
+
+.container-functions {
+  min-width: 1540px;
+  padding-left: 80px;
+}
+
+.container-functions::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.functions {
+  display: inline-block;
+  float: left;
+  padding-top: 10px;
+  font-size: 14px;
+  width: 360px;
+  margin: 0;
+  vertical-align: top;
+}
+
+.functions h2 {
+  font-size: 20px;
+}
+
+.functions p {
+  white-space: pre-wrap;
+  line-height: 25px;
+}
+
+.icon-lifeline5 {
+  background-image: url("../img/sprite.png");
+  background-position: 0px 0px;
+  width: 54px;
+  height: 44px;
+}
+.icon-mobile209 {
+  background-image: url("../img/sprite.png");
+  background-position: -54px 0px;
+  width: 28px;
+  height: 45px;
+}
+
+.icon-rocket19 {
+  background-image: url("../img/sprite.png");
+  background-position: 0px -44px;
+  width: 30px;
+  height: 58px;
+}
+
+.functions:first-of-type {
+  margin-left: 80px;
+}
+
+.functions:last-of-type {
+  padding: 10px;
+  padding-right: 0;
+  background-color: #f6ae48;
+  color: white;
+}
+
+.dev-background {
+  background: url("../img/IMG_3654.png") no-repeat 50%;
+  box-shadow: inset 0 0 1000px rgba(48, 50, 99, 0.6);
+  min-height: 566px;
+  color: white;
+}
+
+.dev-background h2 {
+  font-family: "Exo2Bold";
+  text-align: center;
+  font-size: 50px;
+  line-height: 48px;
+  font-weight: normal;
+  padding-top: 120px;
+  padding-bottom: 70px;
+
+}
+
+.dev-background p {
+  white-space: pre-wrap;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.dev-price {
+  position: relative;
+  height: 600px;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.dev-price div {
+  display: inline-block;
+  font-weight: 200;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 265px;
+  height: 220px;
+}
+
+.dev-price div:first-of-type {
+  width: 530px;
+  height: 420px;
+  top: -70px;
+  left: 0;
+  background:
+    url("../img/settings48.png") no-repeat,
+    url("../img/cog2.png") no-repeat;
+  background-size: auto, contain;
+  font-size: 40px;
+  font-family: "Parangon530C";
+  text-align: center;
+  padding-top: 80px;
+}
+
+.dev-price div:nth-of-type(2) {
+  top: 185px;
+  left: 160px;
+  background: url("../img/IMG_3646.png") no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.65);
+}
+
+.dev-price div:nth-of-type(3) {
+  top: 185px;
+  left: 445px;
+  background: url("../img/web-site.png") no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.65);
+}
+
+.dev-price div:nth-of-type(4) {
+  top: 185px;
+  left: 730px;
+  background: url("../img/int-mag.png") no-repeat;
+  background-size: contain;
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.65);
+}
+
+.dev-price div h2 {
+  font-size: 40px;
+  font-family: "Exo2Light";
+  line-height: 44px;
+  white-space: pre-wrap;
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.dev-price div hr {
+  width: 200px;
+  padding-top: -20px;
+  opacity: 0.6;
+}
+
+.seo {
+  height: 600px;
+  position: relative;
+}
+
+.seo span {
+  top: 40px;
+  left: 120px;
+}
+
+.seo-description {
+  white-space: pre-wrap;
+  position: relative;
+  padding: 0;
+  margin-left: 160px;
+}
+
+.seo-description h2 {
+  font-family: "Parangon530C";
+  font-size: 36px;
+  margin-bottom: 0;
+  line-height: 0;
+  font-weight: bold;
+}
+
+.seo-description p {
+  font-size: 24px;
+  font-family: "Arial";
+  line-height: 48px;
+  font-weight: 100;
+}
+
+.seo-description img {
+  position: absolute;
+}
+
+.seo-description img:first-of-type {
+    top: 0;
+    right: 180px;
+}
+
+.seo-description img:last-of-type {
+    top: 250px;
+    right: 180px;
+}
+
+.partfolio-header,
+.partfolio-footer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 120px;
+  background-color: #303263;
+}
+
+.partfolio-header h2 {
+    color: white;
+    font-size: 36px;
+    line-height: 72px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.partfolio-header span.back {
+    color: white;
+    font-size: 80px;
+    top: 40px;
+    left: 310px;
+}
+
+.partfolio-footer {
+  padding-top: 10px;
+}
+
+.partfolio-footer span {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  height: 70px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+}
+
+.adaptation {
+  position: relative;
+  height: 600px;
+}
+
+.adaptation .description {
+  float: left;
+}
+
+.adaptation img {
+  float: right;
+  margin-top: 55px;
+}
+
+.adaptation .back {
+  top: 170px;
+  left: 115px;
+}
+
+.description h2 {
+  margin-top: 175px;
+  margin-left: 160px;
+}
+
+.description p {
+  white-space: pre-wrap;
+  margin-left: 160px;
+  line-height: 36px;
+  font-size: 18px;
+
+}
+
+.trade-in {
+  height: 540px;
+  background: url("../img/close-meeting.png") no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.52);
+  padding-bottom: 30px;
+}
+
+.trade-in > h2 {
+  color: white;
+  font-size: 36px;
+  line-height: 0;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.trade-in div {
+  padding-top: 0;
+  margin: 0;
+  margin-right: 40px;
+  height: 395px;
+  display: inline-block;
+  color: white;
+  font-family: "Arial", serif;
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: top;
+  text-shadow: 0 0 10px black;
+}
+
+.trade-in div:first-of-type {
+  margin-left: 50px;
+  background: url("../img/comp.svg") no-repeat 25px 70px;
+}
+
+.trade-in div:nth-of-type(2) {
+  background: url("../img/magnifyingglass54.svg") no-repeat 0 60px;
+}
+
+.trade-in div:last-of-type {
+  background: url("../img/diamond12.svg") no-repeat 0px 70px;
+}
+
+.trade-in h3 {
+  padding-top: 60px;
+  font-family: "Parangon530C";
+  margin-left: 85px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.block-1 p,
+.block-2 p,
+.block-3 p {
+  white-space: pre-wrap;
+  padding-top: 0;
+  padding-left: 25px;
+}
+
+.block-1 h3 {
+  margin-left: 110px;
+}
+
+span.button {
+  display: block;
+  font-family: "Parangon530C";
+  text-align: center;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  width: 290px;
+  height: 60px;
+  background-color: #f6ae48;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0;
+  padding-top: 30px;
+  line-height: 0;
+}
+
+.be-careful {
+  height: 670px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.be-careful span {
+  top: 135px;
+  left: 120px;
+}
+
+.be-careful article {
+  float: left;
+  padding: 0;
+  margin-left: 160px;
+  margin-top: 130px;
+}
+
+.be-careful h2 {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.be-careful p {
+    padding-top: 20px;
+    white-space: pre-wrap;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.be-careful img {
+  float: right;
+  margin-top: 60px;
+  padding: 0;
+}
+
+.mail-form {
+  height: 570px;
+  background: url("../img/IMG_3643.png") no-repeat;
+  box-shadow: inset 0 0 1000px rgba(47, 50, 98, 0.69);
+  background-size: cover;
+  color: white;
+}
+
+.mail-form article {
+  display: block;
+  float: left;
+  width: 375px;
+  margin-top: 125px;
+  margin-left: 175px;
+}
+
+.mail-form article h2 {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.mail-form article p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 55px;
+}
+
+.form-order {
+  float: right;
+  margin-top: 125px;
+  margin-right: 60px;
+  width: 610px;
+  height: 260px;
+}
+
+
+.form-order input[type="text"],
+.form-order input[type="email"],
+.form-order textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 35px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 18px;
+  background: none;
+  border: 2px solid white;
+}
+
+.left-column {
+  float: left;
+}
+
+.right-column {
+  float: right;
+}
+
+.right-column,
+.left-column {
+  width: 305px;
+  height: 35px;
+}
+
+.form-order textarea {
+  min-height: 170px;
+  border-top: none;
+}
+
+.form-order label {
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 25px;
+}
+
+.clearfix {
+  margin-bottom: -20px;
+}
+
+.form-order input::placeholder,
+.form-order textarea::placeholder {
+  color: white;
+}
+
+.btn {
+  font-family: "Parangon530C";
+  width: 145px;
+  height: 46px;
+  color: white;
+  background-color: #f6ae48;
+  border-radius: 15px;
+  border: none;
+  margin-left: 80px;
+  vertical-align: top;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  height: 109px;
+  background-color: #f6ae48;
+}
