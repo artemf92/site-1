@@ -1,5 +1,5 @@
 body {
-  min-width: 1040px;
+  min-width: 1240px;
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
@@ -360,6 +360,9 @@ section.studio {
 .seo {
   height: 600px;
   position: relative;
+  background:
+    url("../img/yandex-partner.png") no-repeat 895px 240px,
+    url("../img/google-partner.png") no-repeat 900px 20px;
 }
 
 .seo span {
@@ -450,30 +453,21 @@ section.studio {
 .adaptation {
   position: relative;
   height: 600px;
-}
-
-.adaptation .description {
-  float: left;
-}
-
-.adaptation img {
-  float: right;
-  margin-top: 55px;
+  background: url("../img/adapt.png") no-repeat 100% 30px;
 }
 
 .adaptation .back {
-  top: 170px;
+  top: 135px;
   left: 115px;
 }
 
-.description h2 {
-  margin-top: 175px;
-  margin-left: 160px;
+.description {
+  padding-top: 110px;
+  padding-left: 160px;
 }
 
 .description p {
   white-space: pre-wrap;
-  margin-left: 160px;
   line-height: 36px;
   font-size: 18px;
 
@@ -566,20 +560,21 @@ span.button {
 .be-careful {
   height: 670px;
   position: relative;
+  background: url("../img/tab.png") no-repeat 100% 20px;
   padding: 0;
   margin: 0;
 }
 
 .be-careful span {
-  top: 135px;
-  left: 120px;
+  top: 150px;
+  left: 90px;
 }
 
 .be-careful article {
-  float: left;
   padding: 0;
   margin-left: 160px;
-  margin-top: 130px;
+  padding-top: 150px;
+  margin-top: 0px;
 }
 
 .be-careful h2 {
@@ -592,12 +587,6 @@ span.button {
     white-space: pre-wrap;
     font-size: 24px;
     line-height: 36px;
-}
-
-.be-careful img {
-  float: right;
-  margin-top: 60px;
-  padding: 0;
 }
 
 .mail-form {
@@ -703,6 +692,17 @@ span.button {
   clear: both;
   padding: 0;
   margin: 0;
+}
+
+nav::after,
+article::after,
+.be-careful::after,
+.mail-form::after,
+.clearfix::after,
+.adaptation::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer {
