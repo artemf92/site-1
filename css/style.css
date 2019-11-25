@@ -361,20 +361,19 @@ section.studio {
   height: 600px;
   position: relative;
   background:
-    url("../img/yandex-partner.png") no-repeat 895px 240px,
-    url("../img/google-partner.png") no-repeat 900px 20px;
+    url("../img/yandex-partner.png") no-repeat 80% 240px,
+    url("../img/google-partner.png") no-repeat 80% 20px;
 }
 
 .seo span {
   top: 40px;
-  left: 120px;
+  left: 17%;
 }
 
 .seo-description {
   white-space: pre-wrap;
-  position: relative;
   padding: 0;
-  margin-left: 160px;
+  margin-left: 25%;
 }
 
 .seo-description h2 {
@@ -390,20 +389,6 @@ section.studio {
   font-family: "Arial";
   line-height: 48px;
   font-weight: 100;
-}
-
-.seo-description img {
-  position: absolute;
-}
-
-.seo-description img:first-of-type {
-    top: 0;
-    right: 180px;
-}
-
-.seo-description img:last-of-type {
-    top: 250px;
-    right: 180px;
 }
 
 .partfolio-header,
