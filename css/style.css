@@ -1,5 +1,5 @@
 body {
-  width: 1240px;
+  min-width: 1240px;
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
@@ -69,7 +69,7 @@ span.back {
 .page-header {
   background: url("../img/IMG_3644.png") no-repeat 50%;
   box-shadow: inset 0 0 1000px rgba(48, 50, 99, 0.9);
-  min-height: 810px;
+  height: 810px;
   color: white;
   text-align: center;
 }
